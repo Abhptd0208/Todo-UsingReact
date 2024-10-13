@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+  }
+  
+  html {
+    font-size: 70%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: brown;
+  }
+  
+  .container {
+    font-size: 16px;
+    max-width: 70%; /* Increased for better alignment */
+    margin: 0 auto;
+    padding: 4rem 3rem; /* Increased padding for a more spacious layout */
+  }
+  
+  .grid {
+    display: grid;
+    gap: 6rem; /* Reduced the gap between grid items for tighter spacing */
+  }
+  
+  .grid-two-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-three--cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit; /* Ensure links inherit the color */
+  }
+  
+  ul, ol {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .card {
+    width: 240px;
+    border: 2px solid white;
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+    /* Use flexbox to align content */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /*button {
+    background-color: yellow;
+    padding: 5px;
+    border: black solid 2px;
+    align-self: center; 
+    cursor: pointer;
+  }*/
+
+ 
+  button:hover {
+    background-color: orange; /* Optional: Add a hover effect for better UI */
+  }
+  
+  
+  
